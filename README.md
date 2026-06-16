@@ -21,18 +21,31 @@ This project shows:
 
 ---
 
-## 🚀 Getting Started
+---
 
-### 2. Build the Docker image
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/jaysam2026/hello-docker.git
+cd hello-docker
+
+
+
+
+
+###  Build the Docker image
 
 ```bash
-docker build -t hello-docker .
+2.  Build Docker Image
+   docker build -t hello-docker .
 
-Start the container and expose it on port 5000:
-docker run -p 5000:5000 hello-docker
+3. Run the container
+  Start the container and expose it on port 5000:
+   docker run -p 5000:5000 hello-docker
 
-Open your browser and visit:
-http://localhost:5000
+
+4.  Open your browser and visit:
+    http://localhost:5000
 
 
 
@@ -41,7 +54,6 @@ http://localhost:5000
 
 ---
 
-## 🚀 Getting Started
 
-### 1. Clone the repo
+
 
