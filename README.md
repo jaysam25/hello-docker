@@ -18,6 +18,27 @@ This project shows:
 - **[Docker](ca://s?q=Docker_basics_project)** – containerization.
 - **[Git & GitHub](ca://s?q=Initialize_Git_repository_locally)** – version control and collaboration.
 
+
+---
+
+## 🚀 Getting Started
+
+### 2. Build the Docker image
+
+```bash
+docker build -t hello-docker .
+
+Start the container and expose it on port 5000:
+docker run -p 5000:5000 hello-docker
+
+Open your browser and visit:
+http://localhost:5000
+
+
+
+
+
+
 ---
 
 ## 🚀 Getting Started
